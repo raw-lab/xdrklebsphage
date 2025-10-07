@@ -28,14 +28,8 @@ eval "$(conda shell.bash hook)"
 conda activate /projects/raw_lab/envs/titanomics-0.2
 
 
-
 #CPUs per node
 CPUS=$SLURM_CPUS_ON_NODE
-
-
-echo "====================================================="
-echo "Gathering stats                             : $(date)"
-echo "====================================================="
 
 echo "===================================================="
 echo "              Running ~Titan~                "
