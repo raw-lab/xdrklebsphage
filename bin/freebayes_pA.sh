@@ -57,10 +57,6 @@ freebayes -f ./ref_gen_pA/phageA.fasta -p 1 $(basename $1 .fasta)_sorted.bam > $
 #snpeff
 
 
-echo "===================================================="
-echo "              ~Mapping in Progress~                 "
-echo "===================================================="
-
 echo ""
 echo "======================================================"
 echo "End Time   : $(date)"
