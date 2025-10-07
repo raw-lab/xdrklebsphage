@@ -57,10 +57,6 @@ samtools flagstat $(basename $1 .fasta)_sorted.bam > $(basename $1 .fasta)_mappi
 #snpeff
 
 
-echo "===================================================="
-echo "              ~Mapping in Progress~                 "
-echo "===================================================="
-
 echo ""
 echo "======================================================"
 echo "End Time   : $(date)"
